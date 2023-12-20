@@ -1,0 +1,41 @@
+@font-face {
+    src: url("../fonts/cyrillicround.ttf");
+    font-family: "CyrRound";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
+
+.links {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(4, max-content);
+    place-content: center;
+}
+
+.links a {
+    width: 100%;
+    background: #00730c;
+    color: white;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "CyrRound", serif;
+    font-size: 5vh;
+    padding: 0 2vh;
+    margin: 1vh 0;
+}

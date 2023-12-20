@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Магия</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <a href="../../index.html" class="backButton">Назад</a>
+    <div class="title" id="title1">
+        <div class="question">
+            <h1>Тест по психологии на уровень счастья</h1>
+        </div>
+        <input type="button" value="Начать" id="b3" onclick="not()">
+    </div>
+    <div class="pictures">
+        <div class="block1 block"></div>
+        <div class="block2 block"></div>
+        <div class="block3 block"></div>
+        <div class="block4 block"></div>
+        <div class="block5 block"></div>
+        <div class="block6 block"></div>
+        <div class="block7 block"></div>
+        <div class="block8 block"></div>
+        <div class="block9 block"></div>
+    </div>
+    <div class="otvet">
+        <div class="otv otv1" style="display: none"><span>Вам не хватает понимания.</span> Вы мало кому можете доверить свои сокровенные чувства, так как люди не понимают и не поддерживают вас. Не обязательно проблема заключается только в окружающих. Возможно, вам тяжело выражать чувства, чтобы их суть была понятна каждому. Поработайте над этим, и все у вас получится.</div>
+        <div class="otv otv2" style="display: none"><span>Вам не хватает поддержки.</span> Вы абсолютно лишены сторонней помощи. Даже близкие люди не пытаются проявить участие в ваших делах, или оказать помощь. Попробуйте сделать первый шаг, это поспособствует тому, что окружающие станут относиться к вам внимательнее.</div>
+        <div class="otv otv3" style="display: none"><span>Вам не хватает стабильности.</span> Ваша жизнь – полна неопределенности. И в большей степени в этом виноваты вы сами. Наведите порядок в делах, составьте конкретный план действий, и вы сможете избежать многих непредвиденных обстоятельств. Это поможет минимизировать стресс, и сделает вашу жизнь стабильной.</div>
+        <div class="otv otv4" style="display: none"><span>Вам не хватает уверенности в себе.</span> В первую очередь, нужно поработать над самооценкой. Если вы сумеете ее повысить, то и отношение окружающих к вам поменяется в корне.</div>
+        <div class="otv otv5" style="display: none"><span>Вам не хватает родственной души.</span> На самом деле, вам не хватает близкого человека, с которым можно поделиться самым сокровенным, и получить поддержку. Приложите немного стараний, и вы обязательно найдете своего спутника жизни.</div>
+        <div class="otv otv6" style="display: none"><span>Вам не хватает настойчивости.</span> Вы часто не доводите до конца начатое дело, и не можете отстоять свою точку зрения. Это мешает вам добиваться поставленных целей, и чувствовать себя счастливым.</div>
+        <div class="otv otv7" style="display: none"><span>Вам не хватает везения.</span> У вас недостаточно удачи, чтобы получать все, что вы хотите. В остальном, вы обладаете полным набором качеств и знаний, чтобы добиться успеха, и чувствовать удовлетворение своей жизнью.</div>
+        <div class="otv otv8" style="display: none"><span>Вам не хватает наглости.</span> Недобросовестные конкуренты обыгрывают вас благодаря своей беспардонности. Вы не можете им противостоять, так как не обладаете достаточным уровнем упорства и наглости. Будьте смелее, и у вас все получится.</div>
+        <div class="otv otv9" style="display: none"><span>Вам не хватает времени на себя.</span> Если вы будете внимательнее относиться к своим чувствам и потребностям, начнете уделять больше времени для ухода за собой и личностного роста, то станете абсолютно счастливым человеком.</div>
+    </div>
+    <script>
+        let opElem = {
+            image: document.getElementsByClassName('block'),
+            test: document.getElementsByClassName('otv')
+        }
+        document.body.addEventListener('click', e => {
+
+
+            if (e.target.classList.contains('block')) {
+
+
+                [...opElem.test].forEach(el => el.style.display = 'none');
+                opElem.test[[...opElem.image].indexOf(e.target)].style.display = "block";
+            }
+            if (e.target.classList.contains('otv')) e.target.style.display = 'none';
+        });
+
+    </script>
+    <script>
+        function not() {
+            var elem = document.getElementById('title1');
+            elem.style.visibility = 'hidden';
+            var n = document.getElementById("q");
+            n.style.visibility = 'visible';
+        }
+
+    </script>
+</body>
+
+</html>

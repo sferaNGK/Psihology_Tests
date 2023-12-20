@@ -1,0 +1,198 @@
+@font-face {
+    src: url("../fonts/cyrillicround.ttf");
+    font-family: "CyrRound";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e2ffab;
+    overflow: hidden;
+}
+
+.backButton {
+    font-family: "CyrRound", serif;
+    font-size: 3.5vh;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    line-height: 5.5vh;
+    padding: 0.25vh 0.8vw;
+    background: #45b100;
+    border-radius: 0.75vw;
+    border: 0.1vw solid white;
+    z-index: 100;
+}
+
+.text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    font-weight: bold;
+}
+
+span {
+    color: #8B00FF;
+    font-weight: bold;
+}
+
+.pictures {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 19%;
+    height: 15vw;
+}
+
+.block1 {
+    background: url(../img/block1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block2 {
+    background: url(../img/block2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block3 {
+    background: url(../img/block3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block4 {
+    background: url(../img/block4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block5 {
+    background: url(../img/block5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block6 {
+    background: url(../img/block6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block7 {
+    background: url(../img/block7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block8 {
+    background: url(../img/block8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block9 {
+    background: url(../img/block9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block10 {
+    background: url(../img/block10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block11 {
+    background: url(../img/block11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block12 {
+    background: url(../img/block12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block13 {
+    background: url(../img/block13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block14 {
+    background: url(../img/block14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block15 {
+    background: url(../img/block15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.otvet {
+    display: flex;
+    align-items: center;
+}
+
+.otv {
+    width: 70%;
+    height: inherit;
+    border: 3px solid brown;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    bottom: 35%;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    font-size: 2vw;
+}
+
+.title {
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    margin: auto;
+    height: 25%;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2.35vw;
+}
+
+#b3 {
+    border-radius: 50px;
+    font-size: 80px;
+    border: none;
+    margin: auto;
+    width: 30%;
+    height: 15%;
+    background: white;
+}

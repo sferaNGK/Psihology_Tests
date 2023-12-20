@@ -1,0 +1,156 @@
+@font-face {
+    src: url("../fonts/cyrillicround.ttf");
+    font-family: "CyrRound";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../img/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(253, 212, 151);
+    overflow:  hidden;
+}
+
+.backButton {
+    font-family: "CyrRound", serif;
+    font-size: 3.5vh;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
+    line-height: 5.5vh;
+    padding: 0.25vh 0.8vw;
+    background: #45b100;
+    border-radius: 0.75vw;
+    border: 0.1vw solid white;
+    z-index: 100;
+}
+
+.block1 {
+    position: absolute;
+    width: 22vw;
+    height: 20vw;
+    left: 2vw;
+    top: 10vw;
+}
+
+.block2 {
+    position: absolute;
+    width: 23vw;
+    height: 20vw;
+    left: 24.5vw;
+    top: 10vw;
+}
+
+.block3 {
+    position: absolute;
+    width: 24vw;
+    height: 20vw;
+    left: 48.5vw;
+    top: 10vw;
+}
+
+.block4 {
+    position: absolute;
+    width: 24vw;
+    height: 20vw;
+    left: 73vw;
+    top: 10vw;
+}
+
+.block5 {
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: 0.5vw;
+    top: 31vw;
+}
+
+.block6 {
+    position: absolute;
+    width: 19vw;
+    height: 18vw;
+    left: 19vw;
+    top: 31vw;
+}
+
+.block7 {
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: 38.5vw;
+    top: 31vw;
+}
+
+.block8 {
+    position: absolute;
+    width: 19vw;
+    height: 18vw;
+    left: 57vw;
+    top: 31vw;
+}
+
+.block9 {
+    position: absolute;
+    width: 20vw;
+    height: 18vw;
+    left: 76.5vw;
+    top: 31vw;
+}
+
+.otv {
+    width: 70%;
+    height: inherit;
+    border: 5px solid brown;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    bottom: 35%;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    font-size: 2.5vw;
+}
+
+span {
+    font-weight: bold;
+}
+.title {
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    margin: auto;
+    height: 25%;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 2.35vw;
+}
+#b3 {
+    border-radius: 50px;
+    font-size: 80px;
+    border: none;
+    margin: auto;
+    width: 30%;
+    height: 15%;
+    background: white;
+}
