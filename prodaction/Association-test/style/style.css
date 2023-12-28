@@ -56,8 +56,7 @@ h1 {
 .shapes {
     background-image: url("../img/shapes.jpg");
     background-repeat: no-repeat;
-    background-position-y: -5px;
-    background-size: cover;
+    background-size: contain;
     width: 85vw;
     height: 70vh;
     display: flex;
